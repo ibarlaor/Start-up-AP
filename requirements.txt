@@ -1,0 +1,15 @@
+LIBRERÍAS REQUERIDAS (para start_up.ipynb)
+
+1. INSTALACIÓN DE OLLAMA
+- Instala Ollama
+- ollama pull gemma2:9b (Si tu ordenador tiene poca RAM, puedes usar: ollama pull gemma2:2b)
+
+
+2. INSTALACIÓN DE LIBRERÕAS (Python)
+- pip install torch torchvision torchaudio speech_recognition openai-whisper langdetect ollama pydub gTTS playsound edge-tts tkinter transformers pillow pandas deep-translator easyocr opencv-python
+
+3. LISTADO 
+- Audio/Voz: speech_recognition, whisper, pydub, gTTS, edge_tts, playsound.
+- IA/Modelos: ollama, torch, transformers, PIL.
+- VisiÛn/OCR: easyocr, cv2.
+- Utilidades: pandas, deep-translator, langdetect, tkinter, re, json.
