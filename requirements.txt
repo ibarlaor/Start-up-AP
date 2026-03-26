@@ -1,0 +1,7 @@
+---- QUƒ SE REQUIERE PARA EJECUTAR start_up.ipynb ----
+
+1. Entorno: Crea el entorno conda con el archivo guia_turistica.yml.
+ 
+2. Ollama: Instala y activa Ollama.
+
+3. Ffmpeg: Escribe en la terminal 'brew install ffmpeg' o descarga ffmpeg desde su web oficial (necesario para utilizar las librer’as whisper y pydyb).
