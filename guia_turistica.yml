@@ -1,0 +1,31 @@
+name: guia_turistica
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.14.2
+  - pip
+  - ffmpeg
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pandas
+  - pillow
+  - opencv
+  - tk
+  - pip:
+      - ipykernel
+      - speechrecognition
+      - openai-whisper
+      - pydub
+      - gTTS
+      - playsound==1.2.2
+      - edge-tts
+      - langdetect
+      - ollama
+      - transformers
+      - accelerate
+      - deep-translator
+      - easyocr
+      - ipython
