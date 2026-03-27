@@ -13,5 +13,5 @@ Este trabajo consiste en un asistente turístico inteligente y multimodal basado
 └── guia_turistica.yml              # Entorno necesario para ejecutar guIA_turistica.ipynb
 ```
 Una vez ejecutado el notebook la función `await start_up()` permitirá navegar por un menú formado por diferentes opciones para obtener información sobre el lugar al que vas a viajar (se podrá escribir, subir un audio, o hablar sobre tu duda) y generar una respuesta por texto que también podrá ser escuchada. La subida de imágenes será útil para identificar e obtener información sobre el monumento que aparezca en la foto o traducir texto mostrado en la imagen. También, se podrá generar un historial de las respuestas obtenidas en cada viaje.  
-La versión adaptada a colab del notebook no incluye funciones relacionadas con entradas de audio, estas tendrán que ser textuales.
+La versión adaptada a colab del notebook no incluye funciones relacionadas con entradas o outputs de audio, estas tendrán que ser textuales.
 
